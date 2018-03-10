@@ -1,0 +1,27 @@
+ul li {
+	display: inline-block;
+}
+
+/*I want all my images the same size.*/
+img {
+	width: 300px;
+	height: 300px;
+}
+
+/*I want all my content in the center of the webpage.*/
+body {
+	text-align: center;
+}
+
+/* How the element looks at the very start of the animation */
+.slide-fade-enter,
+/* How the element looks at the very end of the animation when it's leaving (in most cases it will be the same as enter) */
+.slide-fade-leave-to {
+    opacity: 0;
+}
+
+/* Determines how long the animation will take */
+.slide-fade-enter-active,
+.slide-fade-leave-active {
+    transition: 0.5s ease;
+}
